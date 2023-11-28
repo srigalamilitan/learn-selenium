@@ -15,6 +15,7 @@ public class App
     public static final Logger logger=Logger.getLogger(App.class.getName());
     public static void main( String[] args )
     {
+
         logger.info( "Hello World: Selenium!" );
         final String pathLocalDriver="D:\\selenium\\chrome-driver\\chromedriver-win64\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver",pathLocalDriver);
